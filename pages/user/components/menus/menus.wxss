@@ -1,0 +1,33 @@
+.menus_group{
+    width: 92%;
+    background-color: #fff;
+    border-radius: 16rpx;
+    margin: 24rpx auto;
+}
+.menus_group .menu_item{
+    padding: 24rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menus_group .menu_item .menu_icon{
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 16rpx;
+}
+.menus_group .menu_item .menu_main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+.menus_group .menu_item .menu_arrow{
+    width: 32rpx;
+    height: 32rpx;
+}

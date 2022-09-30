@@ -3,17 +3,6 @@
     "pages/index/index",
     "pages/user/index/index"
   ],
-  "tabBar": {
-    "custom": true,
-    "list": [
-      {
-        "pagePath": "pages/index/index"
-      },
-      {
-        "pagePath": "pages/user/index/index"
-      }
-    ]
-  },
   "usingComponents": {
     "t-demo": "../../components/demo-block/index",
     "t-avatar": "tdesign-miniprogram/avatar/avatar",
@@ -77,7 +66,8 @@
     "t-navbar": "tdesign-miniprogram/navbar/navbar",
     "t-date-time-picker": "tdesign-miniprogram/date-time-picker/date-time-picker",
     "t-action-sheet": "tdesign-miniprogram/action-sheet/action-sheet",
-    "t-notice-bar": "tdesign-miniprogram/notice-bar/notice-bar"
+    "t-notice-bar": "tdesign-miniprogram/notice-bar/notice-bar",
+    "custom-tab-bar": "/pages/components/custom-tab-bar/index"
   },
   "window": {
     "backgroundTextStyle": "light",

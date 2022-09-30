@@ -1,3 +1,29 @@
 <view>
-    <view class="user_center_header_bg"></view>
+    <view class="user_center_header">
+        <view class="userinfo">
+            <image
+                class="user_avatar item_box_shadow"
+                src="https://fuss10.elemecdn.com/a/3f/3302e58f9a181d2509f3dc0fa68b0jpeg.jpeg"
+                mode="aspectFill"></image>
+            <view>
+                <view class="user_nickname">张三</view>
+            </view>
+        </view>
+<!--        <view class="card_box">-->
+<!--            <view class="card_item item_box_shadow gradient1">-->
+
+<!--            </view>-->
+<!--            <view class="card_item item_box_shadow gradient1">-->
+
+<!--            </view>-->
+<!--            <view class="card_item item_box_shadow gradient1">-->
+
+<!--            </view>-->
+<!--        </view>-->
+    </view>
+    <menus
+        wx:for="{{menus}}"
+        wx:key="index"
+        list="{{item}}"
+    ></menus>
 </view>

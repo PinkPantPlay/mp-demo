@@ -26,15 +26,8 @@ Component({
     methods: {
         _setActive(event) {
             const index = event.currentTarget.dataset.index
-            // app.TOOL.route.switchTab(this.data.items[index].path)
-            this.setData({
-                active: parseInt(index)
-            })
-        }
-    },
-    lifetimes: {
-        attached() {
-            console.log(111)
+            // app.TOOL.data.set('TAB_BAR_INDEX', index);
+            app.TOOL.route.navigateTo(this.data.items[index].path)
         }
     }
 });

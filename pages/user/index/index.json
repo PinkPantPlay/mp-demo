@@ -1,5 +1,7 @@
 {
     "usingComponents": {
+        "menus": "/pages/user/components/menus/menus"
     },
-    "navigationStyle": "custom"
+    "homeButton": true,
+    "navigationBarTitleText": "会员中心"
 }
