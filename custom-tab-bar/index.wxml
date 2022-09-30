@@ -1,0 +1,22 @@
+<view class="tab_bar_box">
+    <navigator
+            class="tab_bar_item"
+            wx:for="{{items}}"
+            wx:key="index"
+            hover-class="hover"
+            url="{{item.path}}"
+            bindtap="_setActive"
+            data-index="{{index}}"
+            open-type="switchTab"
+    >
+        <image
+            class="tab_bar_icon"
+            mode="aspectFill"
+            src="{{active === index ? item.icon.active : item.icon.normal}}"
+        ></image>
+        <view
+            class="tab_bar_label"
+            style="color: {{active === index ? '#b970a2' :  '#000'}};"
+        >{{ item.label }}{{active === index ? 'aaa' : 'bbb'}}</view>
+    </navigator>
+</view>

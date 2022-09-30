@@ -1,0 +1,71 @@
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.page_index{
+
+}
+
+.swiper_area{
+    width: 100%;
+    height: 500rpx;
+}
+
+.index_main{
+    position: relative;
+}
+
+.index_main .main_userinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16rpx;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0 3% 5%;
+    padding: 32rpx 2%;
+    width: 90%;
+    position: absolute;
+    top: -60rpx;
+}
+
+.main_userinfo .userinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_userinfo .userinfo .avatar{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    border: 4rpx solid #fff;
+    margin: 0 16rpx;
+}
+
+.index_main .main_userinfo .user_handle_btn_group{
+    display: flex;
+    font-size: 20rpx;
+    text-align: center;
+}
+
+.index_main .main_userinfo .main_btn0{
+    padding: 0 32rpx;
+}
+
+.index_main .main_userinfo .main_btn0:first-child{
+    border-right: 1px solid #8a8a8a;
+}
+
+.index_main .main_userinfo .main_btn0 .main_btn0_icon{
+    width: 64rpx;
+    height: 64rpx;
+}
+

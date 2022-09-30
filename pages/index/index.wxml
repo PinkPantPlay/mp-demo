@@ -1,0 +1,31 @@
+<view class="page_index">
+    <view class="swiper-box swiper_area">
+        <t-swiper
+                current="{{1}}"
+                autoplay="{{autoplay}}"
+                duration="{{duration}}"
+                interval="{{interval}}"
+                height="{{500}}"
+        >
+            <t-swiper-item wx:for="{{swiperList}}" wx:key="index">
+                <image src="{{item.image}}" class="img" mode="aspectFill" />
+            </t-swiper-item>
+        </t-swiper>
+    </view>
+    <view class="index_main">
+        <view class="main_userinfo item_box_shadow">
+            <view class="userinfo">
+                <image class="avatar item_box_shadow" mode="aspectFill" src="https://fuss10.elemecdn.com/a/3f/3302e58f9a181d2509f3dc0fa68b0jpeg.jpeg"></image>
+                <view>
+                    <text class="nickname">张三</text>
+                </view>
+            </view>
+            <view class="user_handle_btn_group">
+                <view class="main_btn0" wx:for="{{btn_group[0]}}" wx:key="index" bind:tap="item.event">
+                    <image class="main_btn0_icon" src="{{item.icon}}"></image>
+                    <view class="main_btn0_label">{{item.label}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
