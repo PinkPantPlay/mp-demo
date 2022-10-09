@@ -1,0 +1,28 @@
+.checkstand_footer{
+    position: fixed;
+    bottom: 40rpx;
+    width: 94%;
+    height: 80rpx;
+    margin: 0 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8rpx;
+    overflow: hidden;
+}
+.checkstand_footer .amount_box{
+    width: 60%;
+    height: 80rpx;
+    color: #fff;
+    background-color: #606266;
+}
+.checkstand_footer .pay_btn{
+    background-color: #67C23A;
+    color: #fff;
+    line-height: 80rpx;
+    width: 40%;
+    text-align: center;
+}

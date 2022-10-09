@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/user/index/index",
     "pages/user/member-qrcode/index",
-    "pages/user/wallet/index"
+    "pages/user/wallet/index",
+    "pages/store/checkstand/index"
   ],
   "usingComponents": {
     "t-demo": "../../components/demo-block/index",

@@ -1,35 +1,35 @@
-.tickets{
-    width: 100%;
-}
 .ticket_item{
-    width: 94%;
-    border-radius: 12rpx;
-    overflow: hidden;
-    margin: 24rpx auto;
-    filter: drop-shadow(5px 5px 10px rgba(0,0,0,.1));
     position: relative;
+    padding: 16rpx 3%;
 }
-
-.ticket_item .t-ticket{
-    width: 94%;
+.ticket_item .t-ticket,.ticket_item .b-ticket{
+    filter: drop-shadow(0 0 8rpx rgba(0, 0, 0, 0.1));
     padding: 3%;
+    margin: 0 auto;
+}
+.ticket_item .t-ticket{
     background: radial-gradient(circle at left bottom, transparent 16rpx, #fff 0) left bottom / 50% 100% no-repeat,
     radial-gradient(circle at right bottom, transparent 16rpx, #fff 0) right bottom / 50% 100% no-repeat;
+    border-radius: 16rpx 16rpx 0 0;
+    display: flex;
+}
+.ticket_item .t-ticket .ticket_cover{
+    width: 128rpx;
+    height: 128rpx;
+    margin-right: 24rpx;
+    border-radius: 8rpx;
 }
 .ticket_item .b-ticket{
-    width: 94%;
-    padding: 3%;
     background: radial-gradient(circle at left top, transparent 16rpx, #EBEDF0 0) left top / 50% 100% no-repeat,
     radial-gradient(circle at right top, transparent 16rpx, #EBEDF0 0) right top / 50% 100% no-repeat;
     position: relative;
-    overflow: hidden;
     border-radius: 0 0 16rpx 16rpx;
 }
 .ticket_item .b-ticket .dashed_line{
     position: absolute;
     top: 0;
     width: 94%;
-    height: 2px;
+    height: 1px;
     background: linear-gradient(to right, #fff, #fff 7px, transparent 7px, transparent);
     background-size: 15px 100%;
 }

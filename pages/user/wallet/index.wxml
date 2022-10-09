@@ -29,6 +29,17 @@
                 >{{item.name}}</view>
             </view>
         </t-sticky>
-        <ticket></ticket>
+        <view class="wallet_main_list">
+            <ticket></ticket>
+            <ticket></ticket>
+            <ticket></ticket>
+            <ticket></ticket>
+            <ticket></ticket>
+            <ticket></ticket>
+            <ticket></ticket>
+            <ticket></ticket>
+            <ticket></ticket>
+            <ticket></ticket>
+        </view>
     </view>
 </view>

@@ -1,11 +1,11 @@
 <view class="page_index">
     <view class="swiper-box swiper_area">
         <t-swiper
-                current="{{1}}"
-                autoplay="{{autoplay}}"
-                duration="{{duration}}"
-                interval="{{interval}}"
-                height="{{500}}"
+            current="{{1}}"
+            autoplay="{{autoplay}}"
+            duration="{{duration}}"
+            interval="{{interval}}"
+            height="{{500}}"
         >
             <t-swiper-item wx:for="{{swiperList}}" wx:key="index">
                 <image src="{{item.image}}" class="img" mode="aspectFill" />
@@ -24,6 +24,45 @@
                 <view class="main_btn0" wx:for="{{btn_group[0]}}" wx:key="index" bind:tap="item.event">
                     <image class="main_btn0_icon" src="{{item.icon}}"></image>
                     <view class="main_btn0_label">{{item.label}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="agency_info">
+            <view class="mentor_swiper_box">
+                <t-swiper
+                        class="mentor_swiper"
+                    autoplay="{{autoplay}}"
+                    duration="{{duration}}"
+                    interval="{{interval}}"
+                    height="{{320}}"
+                >
+                    <t-swiper-item class="mentor_swiper_item" wx:for="{{swiperList}}" wx:key="index">
+                        <image src="{{item.image}}" class="img" mode="aspectFill" />
+                    </t-swiper-item>
+                </t-swiper>
+            </view>
+            <view class="agency_info_items">
+                <view class="agency_info_item">
+                    <view class="agency_info_item_box">
+                        <view>关于我们</view>
+                        <view class="agency_desc">皓风舞蹈</view>
+                    </view>
+                    <image
+                        class="agency_icon"
+                        mode="aspectFill"
+                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yNCAyMEMyNy44NjYgMjAgMzEgMTYuODY2IDMxIDEzQzMxIDkuMTM0MDEgMjcuODY2IDYgMjQgNkMyMC4xMzQgNiAxNyA5LjEzNDAxIDE3IDEzQzE3IDE2Ljg2NiAyMC4xMzQgMjAgMjQgMjBaIiBmaWxsPSIjQzBDNENDIiBzdHJva2U9IiNDMEM0Q0MiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTEyIDcuMjU0ODhDMTAuMTg2NSA4LjUxOTgzIDkgMTAuNjIxNCA5IDEzLjAwMDJDOSAxNS41NDY1IDEwLjM1OTYgMTcuNzc1MyAxMi4zOTI0IDE5LjAwMDIiIHN0cm9rZT0iI0MwQzRDQyIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMzYgNy4yNTQ4OEMzNy44MTM1IDguNTE5ODMgMzkgMTAuNjIxNCAzOSAxMy4wMDAyQzM5IDE1LjM3ODkgMzcuODEzNSAxNy40ODA2IDM2IDE4Ljc0NTUiIHN0cm9rZT0iI0MwQzRDQyIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTIgNDBWNDJIMzZWNDBDMzYgMzYuMjcyNSAzNiAzNC40MDg3IDM1LjM5MSAzMi45Mzg1QzM0LjU3OTEgMzAuOTc4MyAzMy4wMjE3IDI5LjQyMDkgMzEuMDYxNSAyOC42MDlDMjkuNTkxMyAyOCAyNy43Mjc1IDI4IDI0IDI4QzIwLjI3MjUgMjggMTguNDA4NyAyOCAxNi45Mzg1IDI4LjYwOUMxNC45NzgzIDI5LjQyMDkgMTMuNDIwOSAzMC45NzgzIDEyLjYwOSAzMi45Mzg1QzEyIDM0LjQwODcgMTIgMzYuMjcyNSAxMiA0MFoiIGZpbGw9IiNDMEM0Q0MiIHN0cm9rZT0iI0MwQzRDQyIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNNDMuOTk5OSA0Mi4wMDAxVjQwLjgwMDFDNDMuOTk5OSAzNi4zMTk3IDQzLjk5OTkgMzQuMDc5NSA0My4xMjggMzIuMzY4MkM0Mi4zNjEgMzAuODYyOSA0MS4xMzcxIDI5LjYzOTEgMzkuNjMxOCAyOC44NzIxIiBzdHJva2U9IiNDMEM0Q0MiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTQuMDAwMDkgNDIuMDAwMVY0MC44MDAxQzQuMDAwMDkgMzYuMzE5NyA0LjAwMDA5IDM0LjA3OTUgNC44NzIwNCAzMi4zNjgyQzUuNjM5MDIgMzAuODYyOSA2Ljg2Mjg3IDI5LjYzOTEgOC4zNjgxNiAyOC44NzIxIiBzdHJva2U9IiNDMEM0Q0MiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+"
+                    ></image>
+                </view>
+                <view class="agency_info_item">
+                    <view class="agency_info_item_box">
+                        <view>门店地址</view>
+                        <view class="agency_desc">广州市xxx路1号</view>
+                    </view>
+                    <image
+                        class="agency_icon"
+                        mode="aspectFill"
+                        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik05Ljg1Nzg2IDMyLjc1NzRDNi4yMzg1OCAzMy44NDMyIDQgMzUuMzQzMiA0IDM3QzQgNDAuMzEzNyAxMi45NTQzIDQzIDI0IDQzQzM1LjA0NTcgNDMgNDQgNDAuMzEzNyA0NCAzN0M0NCAzNS4zNDMyIDQxLjc2MTQgMzMuODQzMiAzOC4xNDIxIDMyLjc1NzQiIHN0cm9rZT0iI0MwQzRDQyIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMjQgMzVDMjQgMzUgMzcgMjYuNTA0IDM3IDE2LjY4MThDMzcgOS42Nzc4NCAzMS4xNzk3IDQgMjQgNEMxNi44MjAzIDQgMTEgOS42Nzc4NCAxMSAxNi42ODE4QzExIDI2LjUwNCAyNCAzNSAyNCAzNVoiIGZpbGw9IiNDMEM0Q0MiIHN0cm9rZT0iI0MwQzRDQyIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTI0IDIyQzI2Ljc2MTQgMjIgMjkgMTkuNzYxNCAyOSAxN0MyOSAxNC4yMzg2IDI2Ljc2MTQgMTIgMjQgMTJDMjEuMjM4NiAxMiAxOSAxNC4yMzg2IDE5IDE3QzE5IDE5Ljc2MTQgMjEuMjM4NiAyMiAyNCAyMloiIGZpbGw9IiNGRkYiIHN0cm9rZT0iI0ZGRiIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+"
+                    ></image>
                 </view>
             </view>
         </view>

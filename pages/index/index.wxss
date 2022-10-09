@@ -69,3 +69,51 @@
     height: 64rpx;
 }
 
+.index_main .agency_info{
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 140rpx;
+    padding-bottom: 16rpx;
+    display: flex;
+}
+.index_main .agency_info .mentor_swiper_box{
+    width: 40%;
+    height: 320rpx;
+    border-radius: 16rpx;
+    overflow: hidden;
+    transform: translateY(0);
+    box-shadow: 0 0 24px 0 rgba(48, 49, 51, 0.07);
+    margin-right: 24rpx;
+}
+.index_main .agency_info .agency_info_items{
+    flex-grow: 1;
+    height: 320rpx;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.index_main .agency_info .agency_info_items .agency_info_item{
+    width: 100%;
+    height: 148rpx;
+    border-radius: 16rpx;
+    box-shadow: 0 0 24px 0 rgba(48, 49, 51, 0.07);
+    background-color: #fff;
+    position: relative;
+}
+.index_main .agency_info .agency_info_items .agency_info_item .agency_info_item_box{
+    padding: 16rpx;
+}
+.index_main .agency_info .agency_info_items .agency_info_item .agency_info_item_box .agency_desc{
+    font-size: 22rpx;
+    color: #909399;
+}
+.index_main .agency_info .agency_info_items .agency_info_item .agency_icon{
+    width: 48rpx;
+    height: 48rpx;
+    position: absolute;
+    bottom: 16rpx;
+    right: 24rpx;
+}

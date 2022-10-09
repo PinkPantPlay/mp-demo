@@ -1,15 +1,14 @@
-<view class="tickets">
-    <view class="ticket_item">
-        <view class="t-ticket">
-            <view>1</view>
-            <view>1</view>
-            <view>1</view>
-            <view>1</view>
-            <view>1</view>
-        </view>
-        <view class="b-ticket">
-            <view class="dashed_line"></view>
-            <view>2</view>
-        </view>
+<view class="ticket_item">
+    <view class="t-ticket">
+        <image
+            class="ticket_cover"
+            mode="aspectFill"
+            src="https://fuss10.elemecdn.com/a/3f/3302e58f9a181d2509f3dc0fa68b0jpeg.jpeg"
+        ></image>
+        <view>1</view>
+    </view>
+    <view class="b-ticket">
+        <view class="dashed_line"></view>
+        <view>2</view>
     </view>
 </view>
