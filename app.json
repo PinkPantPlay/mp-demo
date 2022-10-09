@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/user/index/index"
+    "pages/user/index/index",
+    "pages/user/member-qrcode/index",
+    "pages/user/wallet/index"
   ],
   "usingComponents": {
     "t-demo": "../../components/demo-block/index",
@@ -67,7 +69,8 @@
     "t-date-time-picker": "tdesign-miniprogram/date-time-picker/date-time-picker",
     "t-action-sheet": "tdesign-miniprogram/action-sheet/action-sheet",
     "t-notice-bar": "tdesign-miniprogram/notice-bar/notice-bar",
-    "custom-tab-bar": "/pages/components/custom-tab-bar/index"
+    "custom-tab-bar": "/pages/components/custom-tab-bar/index",
+    "authorize": "/pages/components/authorize/index"
   },
   "window": {
     "backgroundTextStyle": "light",

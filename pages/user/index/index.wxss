@@ -14,11 +14,48 @@
 }
 
 .user_center_header .userinfo .user_avatar{
-    width: 80rpx;
-    height: 80rpx;
+    width: 100rpx;
+    height: 100rpx;
     border-radius: 50%;
     display: block;
     margin-right: 24rpx;
+}
+
+.user_center_header .userinfo .user_base{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.user_center_header .userinfo .user_base .user_nickname{
+    font-size: 32rpx;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 400rpx;
+}
+
+.user_center_header .userinfo .user_base .vip_sign{
+    padding: 4rpx 16rpx;
+    background-color: rgb(254 214 157);
+    color: rgb(218 164 105);
+    border-radius: 8rpx;
+    font-size: 20rpx;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.user_center_header .userinfo .user_base .user_code{
+    width: 64rpx;
+    height: 64rpx;
+    display: block;
+    margin-left: 24rpx;
 }
 
 .card_box{
@@ -33,16 +70,32 @@
 }
 
 .card_box .card_item{
-    width: 30%;
+    width: 20%;
     height: 100rpx;
-    color: #fff;
+    color: #303133;
     border-radius: 8rpx;
-    margin: 1%;
+    margin: 24rpx 12rpx;
+    position: relative;
+    text-align: center;
+    font-size: 22rpx;
 }
 
-.gradient1{
-    background: -webkit-linear-gradient(#67acff, #d7e7ff); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(#67acff, #d7e7ff); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(#67acff, #d7e7ff); /* Firefox 3.6 - 15 */
-    background: linear-gradient(#67acff, #d7e7ff);
+.card_box .card_item .card_item_icon{
+    width: 64rpx;
+    height: 64rpx;
+    margin: 0 auto;
+    display: block;
+}
+
+.card_box .card_item .card_item_nums{
+    position: absolute;
+    top: -16rpx;
+    right: 12rpx;
+    height: 36rpx;
+    line-height: 36rpx;
+    background-color: #F56C6C;
+    font-size: 20rpx;
+    color: #fff;
+    padding: 0 16rpx;
+    border-radius: 20rpx;
 }

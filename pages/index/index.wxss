@@ -61,7 +61,7 @@
 }
 
 .index_main .main_userinfo .main_btn0:first-child{
-    border-right: 1px solid #8a8a8a;
+    border-right: 1px solid #c0c4cc;
 }
 
 .index_main .main_userinfo .main_btn0 .main_btn0_icon{

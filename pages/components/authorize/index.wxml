@@ -1,0 +1,25 @@
+<view class="box_mask" wx:if="{{show_authorize}}">
+    <view class="authorize_main_box item_box_shadow">
+        <view
+            class="authorize_cancel_icon"
+            hover-class="hover"
+            bindtap="hideAuthorize"
+        >✕</view>
+        <image
+            class="authorize_icon"
+            mode="aspectFit"
+            src="/assets/static/images/illustrations/authorize.png"
+        ></image>
+        <view class="authorize_title">为了更好地给您服务，请授权登录</view>
+        <view
+            class="authorize_btn item_box_shadow"
+            hover-class="hover"
+            bindtap="getUserProfile"
+        >立即授权</view>
+        <view
+            class="authorize_cancel_btn"
+            hover-class="hover"
+            bindtap="hideAuthorize"
+        >暂不授权</view>
+    </view>
+</view>

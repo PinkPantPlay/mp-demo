@@ -1,0 +1,15 @@
+<view class="tickets">
+    <view class="ticket_item">
+        <view class="t-ticket">
+            <view>1</view>
+            <view>1</view>
+            <view>1</view>
+            <view>1</view>
+            <view>1</view>
+        </view>
+        <view class="b-ticket">
+            <view class="dashed_line"></view>
+            <view>2</view>
+        </view>
+    </view>
+</view>

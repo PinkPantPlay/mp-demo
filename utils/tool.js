@@ -134,4 +134,10 @@ tool.ui = {
     }
 }
 
+tool.event = {
+    data(event) {
+        return event.currentTarget.dataset;
+    }
+}
+
 module.exports = tool;

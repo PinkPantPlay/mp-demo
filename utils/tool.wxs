@@ -1,0 +1,12 @@
+var tool = {
+    /**
+     * 格式化金额
+     * @returns {string}
+     * @param amount int|float|string
+     */
+    amountFormatter: function (amount) {
+        return parseFloat(amount).toFixed(2);
+    }
+};
+
+module.exports = tool;

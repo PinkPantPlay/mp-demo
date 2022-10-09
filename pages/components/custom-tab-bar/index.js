@@ -27,7 +27,9 @@ Component({
         _setActive(event) {
             const index = event.currentTarget.dataset.index
             // app.TOOL.data.set('TAB_BAR_INDEX', index);
-            app.TOOL.route.navigateTo(this.data.items[index].path)
+            if (index > 0) {
+                app.TOOL.route.navigateTo(this.data.items[index].path)
+            }
         }
     }
 });

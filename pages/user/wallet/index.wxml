@@ -1,0 +1,34 @@
+<wxs module="tool" src="../../../utils/tool.wxs"></wxs>
+<view>
+    <view class="top_card">
+        <view class="wallet_amount_box">
+            <view>余额</view>
+            <view class="wallet_amount">
+                <text class="currency_icon">¥</text>
+                {{tool.amountFormatter(amount)}}
+            </view>
+        </view>
+        <view class="wallet_btn_group">
+            <view
+                class="wallet_btn"
+                wx:for="{{walletBtnGroup}}" wx:key="index" data-url="{{item.url}}" bindtap="navTo">
+                <image class="wallet_btn_icon" src="{{item.icon}}"></image>
+                <view>{{item.name}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="wallet_main_box">
+        <t-sticky container="{{sticky_container}}">
+            <view class="wallet_tab_bar item_box_shadow">
+                <view
+                    class="wallet_tab_item {{wallet_tab_active_key === item.key ? 'active' : ''}}"
+                    wx:for="{{wallet_tabs}}"
+                    wx:key="index"
+                    data-key="{{item.key}}"
+                    bindtap="switch_tab"
+                >{{item.name}}</view>
+            </view>
+        </t-sticky>
+        <ticket></ticket>
+    </view>
+</view>

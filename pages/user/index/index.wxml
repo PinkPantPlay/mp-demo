@@ -5,25 +5,32 @@
                 class="user_avatar item_box_shadow"
                 src="https://fuss10.elemecdn.com/a/3f/3302e58f9a181d2509f3dc0fa68b0jpeg.jpeg"
                 mode="aspectFill"></image>
-            <view>
-                <view class="user_nickname">张三</view>
+            <view class="user_base">
+                <view>
+                    <view class="user_nickname">张三</view>
+                    <view class="vip_sign">VIP</view>
+                </view>
+                <image class="user_code" src="/assets/static/images/icon/qrcode.png"></image>
             </view>
         </view>
-<!--        <view class="card_box">-->
-<!--            <view class="card_item item_box_shadow gradient1">-->
-
-<!--            </view>-->
-<!--            <view class="card_item item_box_shadow gradient1">-->
-
-<!--            </view>-->
-<!--            <view class="card_item item_box_shadow gradient1">-->
-
-<!--            </view>-->
-<!--        </view>-->
+        <view class="card_box">
+            <view
+                class="card_item"
+                wx:for="{{cards}}"
+                wx:key="index"
+                bindtap="navTo"
+                data-url="{{item.url}}"
+            >
+                <view class="card_item_nums" wx:if="{{item.nums > 0}}">{{item.nums}}</view>
+                <image class="card_item_icon" src="{{item.icon}}" mode="aspectFill"></image>
+                <view>{{item.name}}</view>
+            </view>
+        </view>
     </view>
     <menus
         wx:for="{{menus}}"
         wx:key="index"
         list="{{item}}"
     ></menus>
+    <authorize></authorize>
 </view>
