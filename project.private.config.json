@@ -58,6 +58,20 @@
           "query": "",
           "launchMode": "default",
           "scene": null
+        },
+        {
+          "name": "钱包",
+          "pathName": "pages/user/wallet/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "课程列表",
+          "pathName": "pages/store/product/course/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

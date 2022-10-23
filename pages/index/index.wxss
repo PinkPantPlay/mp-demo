@@ -14,6 +14,7 @@
 
 .index_main{
     position: relative;
+    padding-top: 128rpx;
 }
 
 .index_main .main_userinfo{
@@ -69,11 +70,39 @@
     height: 64rpx;
 }
 
+.index_main .goods_items{
+    margin: 16rpx auto;
+    width: 94%;
+    background-color: #fff;
+    border-radius: 16rpx;
+    display: flex;
+    padding: 24rpx 0;
+}
+.index_main .goods_items .goods_item{
+    padding: 32rpx 0;
+    border-right: 1px solid #c0c4cc;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.index_main .goods_items .goods_item:last-child{
+    border: none;
+}
+.index_main .goods_items .goods_item  .goods_item_ico{
+    width: 96rpx;
+    height: 96rpx;
+    margin-top: 20rpx;
+}
+
+
 .index_main .agency_info{
     width: 94%;
     margin: 0 auto;
-    padding-top: 140rpx;
-    padding-bottom: 16rpx;
+    padding: 16rpx 0;
     display: flex;
 }
 .index_main .agency_info .mentor_swiper_box{

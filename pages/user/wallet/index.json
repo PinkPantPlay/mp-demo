@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "ticket": "./components/ticket/index"
+    "ticket": "./components/ticket/index",
+    "course": "./components/course/index"
   },
   "navigationBarTitleText": "钱包"
 }

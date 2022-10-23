@@ -4,7 +4,8 @@
     "pages/user/index/index",
     "pages/user/member-qrcode/index",
     "pages/user/wallet/index",
-    "pages/store/checkstand/index"
+    "pages/store/checkstand/index",
+    "pages/store/product/course/index"
   ],
   "usingComponents": {
     "t-demo": "../../components/demo-block/index",

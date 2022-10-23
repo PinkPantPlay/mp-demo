@@ -1,5 +1,5 @@
 <!--收银台-->
-<view class="pay_container">
+<view>
 
     <view class="checkstand_footer item_box_shadow">
         <view class="amount_box">$99.99</view>

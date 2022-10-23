@@ -1,6 +1,6 @@
 .ticket_item{
     position: relative;
-    padding: 16rpx 3%;
+    padding: 8rpx 3%;
 }
 .ticket_item .t-ticket,.ticket_item .b-ticket{
     filter: drop-shadow(0 0 8rpx rgba(0, 0, 0, 0.1));

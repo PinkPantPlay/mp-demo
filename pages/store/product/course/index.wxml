@@ -1,0 +1,15 @@
+<view>
+    <t-tabs defaultValue="{{0}}" bind:change="onTabsChange" bind:click="onTabsClick" t-class="custom-tabs">
+        <t-tab-panel label="全部" value="0">
+            <view class="course_list">
+                <view class="course_item">
+
+                </view>
+            </view>
+        </t-tab-panel>
+        <t-tab-panel label="摩登舞" value="1">标签二内容</t-tab-panel>
+        <t-tab-panel label="拉丁舞" value="2">标签三内容</t-tab-panel>
+        <t-tab-panel label="中国舞" value="3">标签四内容</t-tab-panel>
+        <t-tab-panel label="VIP小组课" value="4">标签五内容</t-tab-panel>
+    </t-tabs>
+</view>

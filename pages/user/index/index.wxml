@@ -10,7 +10,16 @@
                     <view class="user_nickname">张三</view>
                     <view class="vip_sign">VIP</view>
                 </view>
-                <image class="user_code" src="/assets/static/images/icon/qrcode.png"></image>
+                <view class="user_code_box">
+                    <view class="user_code">
+                        <image class="user_code_ico" src="/assets/static/images/icon/qrcode.png"></image>
+                        <view>会员码</view>
+                    </view>
+                    <view class="user_code">
+                        <image class="user_code_ico" src="/assets/static/images/icon/pay-code-two.png"></image>
+                        <view>付款码</view>
+                    </view>
+                </view>
             </view>
         </view>
         <view class="card_box">

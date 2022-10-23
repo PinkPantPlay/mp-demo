@@ -27,8 +27,8 @@ Page({
                 name: '门票'
             },
             {
-                key: 'coupon',
-                name: '优惠券'
+                key: 'course',
+                name: '课程'
             }
         ],
         wallet_tab_active_key: 'ticket'
@@ -36,7 +36,12 @@ Page({
     onLoad: function (options) {
         this.setData({
             sticky_container: this.createSelectorQuery().select('.wallet_main_box')
-        })
+        });
+        if (options.id) {
+            this.setData({
+                wallet_tab_active_key: options.id
+            })
+        }
     },
     navTo(event) {
         const url = app.TOOL.event.data(event).url;

@@ -29,7 +29,7 @@
                 >{{item.name}}</view>
             </view>
         </t-sticky>
-        <view class="wallet_main_list">
+        <view class="wallet_main_list" wx:if="{{wallet_tab_active_key === 'ticket'}}">
             <ticket></ticket>
             <ticket></ticket>
             <ticket></ticket>
@@ -40,6 +40,13 @@
             <ticket></ticket>
             <ticket></ticket>
             <ticket></ticket>
+        </view>
+        <view class="wallet_main_list" wx:if="{{wallet_tab_active_key === 'course'}}">
+            <course></course>
+            <course></course>
+            <course></course>
+            <course></course>
+            <course></course>
         </view>
     </view>
 </view>

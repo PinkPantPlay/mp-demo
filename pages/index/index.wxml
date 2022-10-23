@@ -27,10 +27,33 @@
                 </view>
             </view>
         </view>
+        <view class="goods_items item_box_shadow">
+            <view class="goods_item">
+                <view class="goods_item_type">门票</view>
+                <image
+                    class="goods_item_ico"
+                    src="/assets/static/images/icon/ticket_fill.png"
+                ></image>
+            </view>
+            <view class="goods_item">
+                <view class="goods_item_type">课程</view>
+                <image
+                    class="goods_item_ico"
+                    src="/assets/static/images/icon/dance_fill.png"
+                ></image>
+            </view>
+            <view class="goods_item">
+                <view class="goods_item_type">零售</view>
+                <image
+                    class="goods_item_ico"
+                    src="/assets/static/images/icon/store_fill.png"
+                ></image>
+            </view>
+        </view>
         <view class="agency_info">
             <view class="mentor_swiper_box">
                 <t-swiper
-                        class="mentor_swiper"
+                    class="mentor_swiper"
                     autoplay="{{autoplay}}"
                     duration="{{duration}}"
                     interval="{{interval}}"

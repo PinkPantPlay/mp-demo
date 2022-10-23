@@ -1,0 +1,37 @@
+<view class="course_item">
+    <view class="course_info" bindtap="handleTimeShowChange">
+        <image
+            class="course_cover"
+            src="https://fuss10.elemecdn.com/a/3f/3302e58f9a181d2509f3dc0fa68b0jpeg.jpeg"
+            mode="aspectFill"
+        ></image>
+        <view class="course_info_text">
+            <view class="course_name">娜娜老师摩登舞</view>
+            <view class="course_tags">
+                <text class="course_tag">摩登舞</text>
+                <text class="course_tag">娜娜老师</text>
+            </view>
+        </view>
+        <view class="show_course_time_list_btn">
+            <text>{{show_time_list ? '隐藏' : '显示' }}时间</text>
+            <image
+                    class="show_course_time_list_btn_icon"
+                    src="/assets/static/images/icon/preview-{{show_time_list?'open':'close-one'}}.png"
+            ></image>
+        </view>
+    </view>
+    <view class="course_time_list" wx:if="{{show_time_list}}">
+        <view class="course_time_item ended">
+            <view class="course_time">2022-10-10 14:00-16:00</view>
+            <view class="course_time_status">已结束</view>
+        </view>
+        <view class="course_time_item ongoing">
+            <view class="course_time">2022-10-23 14:00-16:00</view>
+            <view class="course_time_status">进行中</view>
+        </view>
+        <view class="course_time_item waiting">
+            <view class="course_time">2022-10-25 14:00-16:00</view>
+            <view class="course_time_status">请等待</view>
+        </view>
+    </view>
+</view>

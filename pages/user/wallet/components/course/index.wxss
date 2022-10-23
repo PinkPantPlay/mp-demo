@@ -1,0 +1,75 @@
+.course_item{
+    margin: 16rpx 3%;
+    background-color: #fff;
+    width: 88%;
+    padding: 3%;
+    border-radius: 16rpx;
+}
+.course_item .course_info{
+    display: flex;
+    position: relative;
+}
+.course_item .course_info .show_course_time_list_btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #333;
+    font-size: 24rpx;
+    padding: 0 8rpx;
+    display: flex;
+}
+.course_item .course_info .show_course_time_list_btn .show_course_time_list_btn_icon{
+    width: 32rpx;
+    height: 32rpx;
+    margin: 0 4rpx;
+}
+.course_item .course_info .course_cover{
+    width: 128rpx;
+    height: 128rpx;
+    border-radius: 8rpx;
+    margin-right: 16rpx;
+}
+
+.course_info_text .course_name{
+    font-size: 30rpx;
+}
+.course_info_text .course_tags .course_tag{
+    font-size: 20rpx;
+    padding: 0 12rpx;
+    border-radius: 8rpx;
+    margin: 4rpx;
+    display: inline-block;
+    border: 1px solid rgba(253, 152, 59, 0.76);
+    color: rgba(253, 152, 59, 0.76);
+}
+.course_time_list{
+    margin-top: 24rpx;
+}
+.course_time_item{
+    width: 94%;
+    padding: 16rpx 3%;
+    border-radius: 16rpx;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 16rpx;
+}
+.course_time_item:last-child{
+    margin: 0;
+}
+.course_time_item.ended{
+    background-color: #E4E7ED;
+    text-decoration: line-through;
+    color: #909399;
+}
+.course_time_item.ongoing{
+    background-color: #e1f3d8;
+}
+.course_time_item.waiting{
+    background-color: #E4E7ED;
+    color: #606266;
+}
+
