@@ -62,7 +62,7 @@
 }
 
 .index_main .main_userinfo .main_btn0:first-child{
-    border-right: 1px solid #c0c4cc;
+    border-right: 1px solid #EBEEF5;
 }
 
 .index_main .main_userinfo .main_btn0 .main_btn0_icon{
@@ -80,7 +80,7 @@
 }
 .index_main .goods_items .goods_item{
     padding: 32rpx 0;
-    border-right: 1px solid #c0c4cc;
+    border-right: 1px solid #EBEEF5;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -88,13 +88,14 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    font-size: 32rpx;
 }
 .index_main .goods_items .goods_item:last-child{
     border: none;
 }
 .index_main .goods_items .goods_item  .goods_item_ico{
-    width: 96rpx;
-    height: 96rpx;
+    width: 88rpx;
+    height: 88rpx;
     margin-top: 20rpx;
 }
 

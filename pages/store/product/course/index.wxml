@@ -1,4 +1,7 @@
 <view>
+    <nav-header
+        type="search"
+    ></nav-header>
     <t-tabs defaultValue="{{0}}" bind:change="onTabsChange" bind:click="onTabsClick" t-class="custom-tabs">
         <t-tab-panel label="全部" value="0">
             <view class="course_list">

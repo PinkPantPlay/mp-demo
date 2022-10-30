@@ -1,5 +1,10 @@
 <wxs module="tool" src="../../../utils/tool.wxs"></wxs>
 <view>
+    <nav-header
+        titleIcon="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDQ4IDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTcuOTgyIDExLjk2ODlMMzEuNzg0NiA0TDM2LjM5NyAxMS45ODg5TDE3Ljk4MiAxMS45Njg5WiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik00IDE0QzQgMTIuODk1NCA0Ljg5NTQzIDEyIDYgMTJINDJDNDMuMTA0NiAxMiA0NCAxMi44OTU0IDQ0IDE0VjQyQzQ0IDQzLjEwNDYgNDMuMTA0NiA0NCA0MiA0NEg2QzQuODk1NDMgNDQgNCA0My4xMDQ2IDQgNDJWMTRaIiBmaWxsPSJub25lIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0zNS4yNSAzM0g0NFYyM0gzNS4yNUMzMi4zNTA1IDIzIDMwIDI1LjIzODYgMzAgMjhDMzAgMzAuNzYxNCAzMi4zNTA1IDMzIDM1LjI1IDMzWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNNDQgMTYuNVY0MC41IiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+"
+        title="钱包"
+        bgColor="#f6f6f6"
+    ></nav-header>
     <view class="top_card">
         <view class="wallet_amount_box">
             <view>余额</view>

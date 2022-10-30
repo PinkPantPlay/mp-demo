@@ -28,27 +28,27 @@
             </view>
         </view>
         <view class="goods_items item_box_shadow">
-            <view class="goods_item">
-                <view class="goods_item_type">门票</view>
+            <navigator class="goods_item" hover-class="none">
+                <view class="goods_item_type">跳舞门票</view>
                 <image
                     class="goods_item_ico"
-                    src="/assets/static/images/icon/ticket_fill.png"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0zMCAzMEMzMyAzMCAzNSAzMS44ODA5IDM1IDM0TDQxIDM0TDQxIDRMMzUgNEMzNSA2IDMzIDggMzAgOEMyNyA4IDI1IDYgMjUgNEwxOSA0TDE5IDE4IiBzdHJva2U9IiMzMDMxMzMiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTMwIDQ0TDI0IDQ0QzI0IDQxLjg4MDkgMjIgNDAgMTkgNDBDMTYgNDAgMTQgNDEuODgwOSAxNCA0NEw4IDQ0TDggMTRMMTQgMTRDMTQgMTYgMTYgMTggMTkgMThDMjIgMTggMjQgMTYgMjQgMTRMMzAgMTRMMzAgNDRaIiBmaWxsPSIjYjk3MGEyIiBzdHJva2U9IiMzMDMxMzMiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PGNpcmNsZSBjeD0iMTQiIGN5PSIyNCIgcj0iMiIgZmlsbD0iIzMwMzEzMyIvPjxjaXJjbGUgY3g9IjE5IiBjeT0iMjQiIHI9IjIiIGZpbGw9IiMzMDMxMzMiLz48Y2lyY2xlIGN4PSIyNCIgY3k9IjI0IiByPSIyIiBmaWxsPSIjMzAzMTMzIi8+PC9zdmc+"
                 ></image>
-            </view>
-            <view class="goods_item">
-                <view class="goods_item_type">课程</view>
+            </navigator>
+            <navigator url="/pages/store/product/course/index" class="goods_item" hover-class="none">
+                <view class="goods_item_type">舞蹈课程</view>
                 <image
                     class="goods_item_ico"
-                    src="/assets/static/images/icon/dance_fill.png"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHg9IjQiIHk9IjEwIiB3aWR0aD0iNDAiIGhlaWdodD0iMzAiIHJ4PSIyIiBmaWxsPSIjYjk3MGEyIiBzdHJva2U9IiMzMDMxMzMiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTE0IDZWMTQiIHN0cm9rZT0iIzMwMzEzMyIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNMjUgMjNMMTQgMjMiIHN0cm9rZT0iIzMwMzEzMyIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNMzQgMzFMMTQgMzEiIHN0cm9rZT0iIzMwMzEzMyIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNMzQgNlYxNCIgc3Ryb2tlPSIjMzAzMTMzIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg=="
                 ></image>
-            </view>
-            <view class="goods_item">
-                <view class="goods_item_type">零售</view>
+            </navigator>
+            <navigator url="/" class="goods_item" hover-class="none">
+                <view class="goods_item_type">零售商品</view>
                 <image
                     class="goods_item_ico"
-                    src="/assets/static/images/icon/store_fill.png"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0zOSAzMkgxM0w4IDEySDQ0TDM5IDMyWiIgZmlsbD0iI2I5NzBhMiIvPjxwYXRoIGQ9Ik0zIDZINi41TDggMTJNOCAxMkwxMyAzMkgzOUw0NCAxMkg4WiIgc3Ryb2tlPSIjMzAzMTMzIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjEzIiBjeT0iMzkiIHI9IjMiIHN0cm9rZT0iIzMwMzEzMyIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48Y2lyY2xlIGN4PSIzOSIgY3k9IjM5IiByPSIzIiBzdHJva2U9IiMzMDMxMzMiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+"
                 ></image>
-            </view>
+            </navigator>
         </view>
         <view class="agency_info">
             <view class="mentor_swiper_box">

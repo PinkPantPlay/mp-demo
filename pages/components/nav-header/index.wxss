@@ -1,0 +1,26 @@
+.navHeader{
+    width: 100%;
+}
+.nav_main{
+    display: flex;
+    margin-left: 8rpx;
+}
+
+.nav_main .nav_title_bar,.nav_main .nav_search_bar{
+    flex-grow: 1;
+    display: flex;
+}
+.nav_main .nav_title_bar{
+    font-size: 32rpx;
+    font-weight: bold;
+}
+.nav_main .nav_title_bar .title_icon{
+    margin: 0 20rpx;
+    padding: 6px 0;
+}
+.nav_main .nav_search_bar{
+    background-color: #F2F3F5;
+    margin: 0 20rpx;
+    border-radius: 12rpx;
+    color: #909399;
+}

@@ -72,13 +72,14 @@
     "t-action-sheet": "tdesign-miniprogram/action-sheet/action-sheet",
     "t-notice-bar": "tdesign-miniprogram/notice-bar/notice-bar",
     "custom-tab-bar": "/pages/components/custom-tab-bar/index",
-    "authorize": "/pages/components/authorize/index"
+    "authorize": "/pages/components/authorize/index",
+    "nav-header": "/pages/components/nav-header/index"
   },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f6f6f6",
     "backgroundColor": "#f6f6f6",
-    "navigationBarTitleText": "TDesign",
+    "navigationStyle": "custom",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

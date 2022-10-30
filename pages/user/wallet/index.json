@@ -3,5 +3,5 @@
     "ticket": "./components/ticket/index",
     "course": "./components/course/index"
   },
-  "navigationBarTitleText": "钱包"
+  "navigationStyle": "custom"
 }

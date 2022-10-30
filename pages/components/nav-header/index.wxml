@@ -1,0 +1,32 @@
+<view
+    class="navHeader"
+    style="height: {{n}}px; background-color: {{bgColor}}; padding-top: {{s}}px;"
+>
+    <view style="margin: {{m}}px 0; width: {{sw - (sw - mr) - mw}}px;" class="nav_main">
+        <navigator open-type="navigateBack" hover-class="none" style="padding: 4px 32rpx;">
+            <t-icon
+                name="arrow-left"
+                color="#606266"
+                size="{{h - 8}}px"
+            ></t-icon>
+        </navigator>
+        <view wx:if="{{type === 'title'}}" class="nav_title_bar" style="line-height: {{h}}px;">
+            <image
+                wx:if="{{titleIcon}}"
+                src="{{titleIcon}}"
+                style="width: {{h - 12}}px; height: {{h - 12}}px;"
+                class="title_icon"
+            ></image>
+            <text>{{title}}</text>
+        </view>
+        <view wx:elif="{{type === 'search'}}" class="nav_search_bar" style="line-height: {{h}}px;">
+            <t-icon
+                style="padding: 8px 8rpx 8px 20rpx;"
+                name="search"
+                color="#909399"
+                size="{{h - 16}}px"
+            ></t-icon>
+            <text>搜索</text>
+        </view>
+    </view>
+</view>

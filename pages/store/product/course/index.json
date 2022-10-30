@@ -1,5 +1,5 @@
 {
   "usingComponents": {
   },
-  "navigationBarTitleText": "课程"
+  "navigationStyle": "custom"
 }
